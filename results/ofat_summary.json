@@ -1,0 +1,2822 @@
+{
+  "airplane": {
+    "baseline": {
+      "avg_det": 1.1,
+      "det_rate": 0.6,
+      "avg_score": 0.1986437365412712
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "aircraft",
+        "avg_det": 0.4,
+        "det_rate": 0.3,
+        "avg_score": 0.08887480944395065,
+        "wilcoxon_p": 0.006014839076076944,
+        "wilcoxon_sig": "**"
+      },
+      "fine": {
+        "prompt": "fixed-wing passenger airplane on tarmac",
+        "avg_det": 1.4,
+        "det_rate": 0.9,
+        "avg_score": 0.29700249433517456,
+        "wilcoxon_p": 0.15496810882882348,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "airplane on tarmac",
+        "avg_det": 1.75,
+        "det_rate": 0.95,
+        "avg_score": 0.33134426176548004,
+        "wilcoxon_p": 0.019679210935250956,
+        "wilcoxon_sig": "*"
+      },
+      "context": {
+        "prompt": "airplane parked at airport apron near terminal",
+        "avg_det": 1.9,
+        "det_rate": 0.9,
+        "avg_score": 0.321253801882267,
+        "wilcoxon_p": 0.01500509732803518,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "airplane, elongated with swept-back wings",
+        "avg_det": 1.35,
+        "det_rate": 0.75,
+        "avg_score": 0.2615548074245453,
+        "wilcoxon_p": 0.3247754935741044,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "airplane, elongated fuselage with swept-back wings and T-tail, cruciform shape",
+        "avg_det": 1.1,
+        "det_rate": 0.8,
+        "avg_score": 0.25412199050188067,
+        "wilcoxon_p": 0.8485077680980763,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "medium-sized airplane",
+        "avg_det": 1.45,
+        "det_rate": 0.8,
+        "avg_score": 0.27241328060626985,
+        "wilcoxon_p": 0.20540311536166367,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "medium-sized, dwarfed by surrounding runways airplane",
+        "avg_det": 1.6,
+        "det_rate": 0.9,
+        "avg_score": 0.30786074995994567,
+        "wilcoxon_p": 0.05251300141424136,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of an airplane",
+        "avg_det": 1.8,
+        "det_rate": 0.9,
+        "avg_score": 0.33666587471961973,
+        "wilcoxon_p": 0.003092157503590054,
+        "wilcoxon_sig": "**"
+      },
+      "aerial": {
+        "prompt": "an aerial view of an airplane",
+        "avg_det": 1.35,
+        "det_rate": 0.75,
+        "avg_score": 0.26736616492271426,
+        "wilcoxon_p": 0.48974590203964896,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of an airplane",
+        "avg_det": 1.35,
+        "det_rate": 0.85,
+        "avg_score": 0.2759416431188583,
+        "wilcoxon_p": 0.3247754935741044,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "airplane, white or silver",
+        "avg_det": 1.45,
+        "det_rate": 0.85,
+        "avg_score": 0.2940993711352348,
+        "wilcoxon_p": 0.23037174487036616,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "airplane, bright white or metallic silver fuselage, high contrast against dark tarmac",
+        "avg_det": 1.35,
+        "det_rate": 0.9,
+        "avg_score": 0.299990339577198,
+        "wilcoxon_p": 0.25487863706627,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "airplane, smooth metallic surface",
+        "avg_det": 1.35,
+        "det_rate": 0.8,
+        "avg_score": 0.2646251618862152,
+        "wilcoxon_p": 0.45371352661176156,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "airplane, smooth uniform fuselage with distinct wing surface, bright specular highlights",
+        "avg_det": 1.15,
+        "det_rate": 0.8,
+        "avg_score": 0.2539864808320999,
+        "wilcoxon_p": 0.6613892334013602,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "airport": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "aviation facility",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "civil airport with runways and terminal buildings",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "airport in open area",
+        "avg_det": 0.35,
+        "det_rate": 0.35,
+        "avg_score": 0.09084958583116531,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      },
+      "context": {
+        "prompt": "airport with intersecting runways surrounded by grassland",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "airport, large complex with straight intersecting lines",
+        "avg_det": 1.05,
+        "det_rate": 1.0,
+        "avg_score": 0.33502103835344316,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "airport, large area with intersecting straight runways forming cross or V patterns",
+        "avg_det": 1.1,
+        "det_rate": 1.0,
+        "avg_score": 0.353520630300045,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "large-scale airport",
+        "avg_det": 1.05,
+        "det_rate": 1.0,
+        "avg_score": 0.3148892536759377,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      },
+      "comparative": {
+        "prompt": "large-scale, dominating the surrounding landscape airport",
+        "avg_det": 1.45,
+        "det_rate": 1.0,
+        "avg_score": 0.4219514444470406,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of an airport",
+        "avg_det": 0.3,
+        "det_rate": 0.3,
+        "avg_score": 0.0830345705151558,
+        "wilcoxon_p": 0.040423979336908576,
+        "wilcoxon_sig": "*"
+      },
+      "aerial": {
+        "prompt": "an aerial view of an airport",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06676817685365677,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of an airport",
+        "avg_det": 1.2,
+        "det_rate": 0.95,
+        "avg_score": 0.3285706594586372,
+        "wilcoxon_p": 4.6322347843339827e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "airport, gray with dark runways",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "airport, gray concrete with dark asphalt runways, surrounded by green or brown vegetation",
+        "avg_det": 1.05,
+        "det_rate": 0.9,
+        "avg_score": 0.2869838684797287,
+        "wilcoxon_p": 4.713477136435516e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "airport, mixed smooth and rough",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.012884630262851715,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "airport, smooth runway strips alternating with rougher grassland texture",
+        "avg_det": 1.2,
+        "det_rate": 1.0,
+        "avg_score": 0.34492027759552,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "baseball_field": {
+    "baseline": {
+      "avg_det": 1.7,
+      "det_rate": 1.0,
+      "avg_score": 0.36812576800584795
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "sports field",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      },
+      "fine": {
+        "prompt": "baseball diamond with infield dirt and outfield grass",
+        "avg_det": 2.05,
+        "det_rate": 0.95,
+        "avg_score": 0.3663193240761757,
+        "wilcoxon_p": 0.1157520287622813,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "baseball field in urban area",
+        "avg_det": 1.85,
+        "det_rate": 0.95,
+        "avg_score": 0.34885749518871306,
+        "wilcoxon_p": 0.28772573925836464,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "baseball field in urban park or school grounds surrounded by buildings",
+        "avg_det": 1.75,
+        "det_rate": 0.95,
+        "avg_score": 0.3473948448896408,
+        "wilcoxon_p": 0.72305812692811,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "baseball field, diamond-shaped field",
+        "avg_det": 2.05,
+        "det_rate": 1.0,
+        "avg_score": 0.3791223630309105,
+        "wilcoxon_p": 0.07670068557959019,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "baseball field, diamond-shaped infield with fan-shaped outfield and visible base paths",
+        "avg_det": 1.9,
+        "det_rate": 0.95,
+        "avg_score": 0.3449916511774063,
+        "wilcoxon_p": 0.3788210964040083,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "moderate-sized baseball field",
+        "avg_det": 2.2,
+        "det_rate": 1.0,
+        "avg_score": 0.37453351318836214,
+        "wilcoxon_p": 0.021474082514810876,
+        "wilcoxon_sig": "*"
+      },
+      "comparative": {
+        "prompt": "moderate-sized, comparable to nearby buildings baseball field",
+        "avg_det": 2.1,
+        "det_rate": 1.0,
+        "avg_score": 0.3682276517152786,
+        "wilcoxon_p": 0.09272814386286843,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a baseball field",
+        "avg_det": 2.25,
+        "det_rate": 1.0,
+        "avg_score": 0.39349699914455416,
+        "wilcoxon_p": 0.011216393723981342,
+        "wilcoxon_sig": "*"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a baseball field",
+        "avg_det": 2.15,
+        "det_rate": 1.0,
+        "avg_score": 0.3826717838644981,
+        "wilcoxon_p": 0.021291755267428082,
+        "wilcoxon_sig": "*"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a baseball field",
+        "avg_det": 1.85,
+        "det_rate": 0.95,
+        "avg_score": 0.3513439416885376,
+        "wilcoxon_p": 0.3556110610952391,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "baseball field, green with brown patch",
+        "avg_det": 1.95,
+        "det_rate": 0.95,
+        "avg_score": 0.3500838398933411,
+        "wilcoxon_p": 0.34939912530627215,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "baseball field, bright green outfield grass with reddish-brown infield dirt, high contrast",
+        "avg_det": 2.0,
+        "det_rate": 0.95,
+        "avg_score": 0.3612895533442497,
+        "wilcoxon_p": 0.09680683883161402,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "baseball field, smooth grass with granular dirt",
+        "avg_det": 1.85,
+        "det_rate": 1.0,
+        "avg_score": 0.37495540380477904,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "baseball field, smooth uniform outfield grass contrasting with granular textured infield dirt",
+        "avg_det": 2.1,
+        "det_rate": 1.0,
+        "avg_score": 0.37788115739822387,
+        "wilcoxon_p": 0.09272814386286843,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "basketball_court": {
+    "baseline": {
+      "avg_det": 0.05,
+      "det_rate": 0.05,
+      "avg_score": 0.01531779021024704
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "sports court",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "rectangular basketball court with white court markings",
+        "avg_det": 0.75,
+        "det_rate": 0.7,
+        "avg_score": 0.22669428884983062,
+        "wilcoxon_p": 0.00045963436521530906,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "basketball court on paved ground",
+        "avg_det": 0.85,
+        "det_rate": 0.75,
+        "avg_score": 0.24569941014051438,
+        "wilcoxon_p": 0.0002820412693618578,
+        "wilcoxon_sig": "***"
+      },
+      "context": {
+        "prompt": "basketball court in residential area or school playground",
+        "avg_det": 0.55,
+        "det_rate": 0.5,
+        "avg_score": 0.15553414523601533,
+        "wilcoxon_p": 0.005743271119650812,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "basketball court, rectangular paved court",
+        "avg_det": 0.95,
+        "det_rate": 0.8,
+        "avg_score": 0.26202778071165084,
+        "wilcoxon_p": 0.00018227426411331185,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "basketball court, rectangular paved court with center circle and key markings visible",
+        "avg_det": 0.6,
+        "det_rate": 0.55,
+        "avg_score": 0.17217156440019607,
+        "wilcoxon_p": 0.0029984149815406335,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "small basketball court",
+        "avg_det": 0.15,
+        "det_rate": 0.15,
+        "avg_score": 0.042345286905765535,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "small, much smaller than surrounding buildings basketball court",
+        "avg_det": 0.7,
+        "det_rate": 0.65,
+        "avg_score": 0.21891069263219834,
+        "wilcoxon_p": 0.0008452812988718957,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a basketball court",
+        "avg_det": 1.0,
+        "det_rate": 0.8,
+        "avg_score": 0.2681902050971985,
+        "wilcoxon_p": 0.00019773781367346915,
+        "wilcoxon_sig": "***"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a basketball court",
+        "avg_det": 0.75,
+        "det_rate": 0.65,
+        "avg_score": 0.20746322125196456,
+        "wilcoxon_p": 0.0008967293467084598,
+        "wilcoxon_sig": "***"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a basketball court",
+        "avg_det": 0.6,
+        "det_rate": 0.6,
+        "avg_score": 0.19169122874736785,
+        "wilcoxon_p": 0.0014961642897455493,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "basketball court, dark gray or green",
+        "avg_det": 0.75,
+        "det_rate": 0.7,
+        "avg_score": 0.22469672709703445,
+        "wilcoxon_p": 0.00045963436521530906,
+        "wilcoxon_sig": "***"
+      },
+      "spectral": {
+        "prompt": "basketball court, uniform dark gray or dark green paved surface with bright white painted lines",
+        "avg_det": 0.75,
+        "det_rate": 0.6,
+        "avg_score": 0.19339291155338287,
+        "wilcoxon_p": 0.0017050396930079533,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "basketball court, smooth uniform paved",
+        "avg_det": 0.85,
+        "det_rate": 0.7,
+        "avg_score": 0.23344089090824127,
+        "wilcoxon_p": 0.0005284974491239368,
+        "wilcoxon_sig": "***"
+      },
+      "pattern": {
+        "prompt": "basketball court, smooth paved court surface with narrow painted line markings",
+        "avg_det": 0.9,
+        "det_rate": 0.7,
+        "avg_score": 0.22182596027851104,
+        "wilcoxon_p": 0.0005529710735050952,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "bridge": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "bridge or viaduct",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.027026240527629853,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "highway bridge spanning across water",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.07079695612192154,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "bridge over water",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.026603947579860687,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "bridge spanning across river or strait connecting two shores",
+        "avg_det": 0.4,
+        "det_rate": 0.35,
+        "avg_score": 0.10226057767868042,
+        "wilcoxon_p": 0.021291755267428082,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "bridge, linear structure over water",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.028080543875694274,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "bridge, straight linear deck across water with parallel road lanes",
+        "avg_det": 0.6,
+        "det_rate": 0.6,
+        "avg_score": 0.18482789695262908,
+        "wilcoxon_p": 0.0007851649420077143,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "long bridge",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.014192183315753937,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "long linear, spanning across wide water body bridge",
+        "avg_det": 0.35,
+        "det_rate": 0.35,
+        "avg_score": 0.10143675804138183,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a bridge",
+        "avg_det": 0.7,
+        "det_rate": 0.7,
+        "avg_score": 0.21704089343547822,
+        "wilcoxon_p": 0.00022522370098009104,
+        "wilcoxon_sig": "***"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a bridge",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.1161264270544052,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a bridge",
+        "avg_det": 0.9,
+        "det_rate": 0.75,
+        "avg_score": 0.24039817601442337,
+        "wilcoxon_p": 0.00018227426411331185,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "bridge, gray or white",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05670010149478912,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "bridge, light gray or white concrete deck, dark shadow cast on water below",
+        "avg_det": 0.6,
+        "det_rate": 0.6,
+        "avg_score": 0.1898327574133873,
+        "wilcoxon_p": 0.0007851649420077143,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "bridge, smooth road surface",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05410187840461731,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "bridge, smooth uniform road deck with parallel lane markings, dark shadow edge",
+        "avg_det": 0.55,
+        "det_rate": 0.55,
+        "avg_score": 0.16805683374404906,
+        "wilcoxon_p": 0.0014961642897455493,
+        "wilcoxon_sig": "**"
+      }
+    }
+  },
+  "chimney": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "tall industrial structure",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.01437072604894638,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "industrial smokestack chimney with elongated shadow",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.052779239416122434,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "chimney at industrial plant",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "chimney standing at industrial facility or power plant",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "chimney, tall slender cylinder",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.10683736056089402,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      },
+      "geometry": {
+        "prompt": "chimney, tall circular cross-section tower with distinctive elongated shadow",
+        "avg_det": 1.6,
+        "det_rate": 0.85,
+        "avg_score": 0.2763931840658188,
+        "wilcoxon_p": 0.00012243344444223985,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "tall slender chimney",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06665689200162887,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "tall slender, towering above surrounding industrial buildings chimney",
+        "avg_det": 1.15,
+        "det_rate": 1.0,
+        "avg_score": 0.31267967373132705,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a chimney",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a chimney",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06589439809322357,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a chimney",
+        "avg_det": 1.05,
+        "det_rate": 0.8,
+        "avg_score": 0.24165505468845366,
+        "wilcoxon_p": 0.0001349079267020126,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "chimney, gray or reddish",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "chimney, gray concrete or reddish brick, with dark elongated shadow on one side",
+        "avg_det": 1.25,
+        "det_rate": 0.95,
+        "avg_score": 0.2962425634264946,
+        "wilcoxon_p": 4.7097091049791275e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "chimney, smooth cylindrical surface",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.013065378367900848,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "chimney, smooth cylindrical surface, distinctive elongated shadow creating sharp contrast edge",
+        "avg_det": 0.15,
+        "det_rate": 0.15,
+        "avg_score": 0.0389028400182724,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "dam": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "water barrier structure",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "concrete dam wall crossing a river",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.027300128340721132,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "dam across river",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "dam spanning across river valley between two hillsides",
+        "avg_det": 0.85,
+        "det_rate": 0.65,
+        "avg_score": 0.18509747982025146,
+        "wilcoxon_p": 0.0005529710735050952,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "dam, straight wall across river",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.012772059440612793,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "dam, straight concrete wall cutting perpendicular across river channel",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05391456037759781,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "massive dam",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "massive, spanning entire river width dam",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a dam",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.02636782228946686,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a dam",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.01272694617509842,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a dam",
+        "avg_det": 1.0,
+        "det_rate": 0.85,
+        "avg_score": 0.252376963198185,
+        "wilcoxon_p": 7.142958689758954e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "dam, light gray concrete",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "dam, bright light gray concrete wall, dark blue or brown water on one side, lighter on the other",
+        "avg_det": 0.9,
+        "det_rate": 0.7,
+        "avg_score": 0.19849459826946259,
+        "wilcoxon_p": 0.00030697424837510857,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "dam, smooth concrete wall",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "dam, smooth uniform concrete wall surface, sharp straight edge against water",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.02655564099550247,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "expressway_service_area": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "roadside facility complex",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "highway rest area with parking lot and multiple buildings",
+        "avg_det": 0.45,
+        "det_rate": 0.45,
+        "avg_score": 0.12251598984003068,
+        "wilcoxon_p": 0.005583616806378762,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "expressway service area along highway",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "expressway service area adjacent to highway with entry and exit ramps",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.02734588533639908,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "expressway service area, roadside complex with buildings",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "expressway service area, cluster of rectangular buildings alongside highway with large paved parking area",
+        "avg_det": 0.9,
+        "det_rate": 0.85,
+        "avg_score": 0.28681650161743166,
+        "wilcoxon_p": 4.9634341907906134e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "medium-sized expressway service area",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.014291818439960479,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "medium-sized, distinct along highway expressway service area",
+        "avg_det": 0.3,
+        "det_rate": 0.3,
+        "avg_score": 0.08414714485406875,
+        "wilcoxon_p": 0.040423979336908576,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of an expressway service area",
+        "avg_det": 0.75,
+        "det_rate": 0.75,
+        "avg_score": 0.2221220314502716,
+        "wilcoxon_p": 0.00012350687726532842,
+        "wilcoxon_sig": "***"
+      },
+      "aerial": {
+        "prompt": "an aerial view of an expressway service area",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06636430770158767,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of an expressway service area",
+        "avg_det": 0.85,
+        "det_rate": 0.8,
+        "avg_score": 0.23918585032224654,
+        "wilcoxon_p": 8.36529497389185e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "expressway service area, gray with dark roofs",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.012545369565486908,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "expressway service area, gray asphalt parking area with dark or red roofed buildings",
+        "avg_det": 0.55,
+        "det_rate": 0.55,
+        "avg_score": 0.15783096998929977,
+        "wilcoxon_p": 0.0014961642897455493,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "expressway service area, mixed paved and built-up",
+        "avg_det": 0.7,
+        "det_rate": 0.65,
+        "avg_score": 0.1962054744362831,
+        "wilcoxon_p": 0.00045963436521530906,
+        "wilcoxon_sig": "***"
+      },
+      "pattern": {
+        "prompt": "expressway service area, large uniform asphalt parking area adjacent to clustered building roofs",
+        "avg_det": 0.85,
+        "det_rate": 0.85,
+        "avg_score": 0.2628835827112198,
+        "wilcoxon_p": 3.90487810335265e-05,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "expressway_toll_station": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "roadside toll facility",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "highway toll plaza with multiple parallel toll booths and canopies",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "expressway toll station on highway",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "expressway toll station spanning across highway lanes with widened road section",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.07001626491546631,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "expressway toll station, widened road section with booths",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "expressway toll station, road widening with multiple parallel lanes and toll booth canopies",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.10839485228061677,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "widened expressway toll station",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "widened, with multiple parallel lanes expressway toll station",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of an expressway toll station",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.01255004107952118,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of an expressway toll station",
+        "avg_det": 0.15,
+        "det_rate": 0.15,
+        "avg_score": 0.040008118748664855,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of an expressway toll station",
+        "avg_det": 1.3,
+        "det_rate": 0.95,
+        "avg_score": 0.30779473930597306,
+        "wilcoxon_p": 5.374952124585712e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "expressway toll station, gray with white canopies",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "expressway toll station, dark gray asphalt with bright white toll booth canopies",
+        "avg_det": 0.7,
+        "det_rate": 0.7,
+        "avg_score": 0.1954377830028534,
+        "wilcoxon_p": 0.00022522370098009104,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "expressway toll station, striped road surface",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.10946432948112488,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      },
+      "pattern": {
+        "prompt": "expressway toll station, parallel striped road lanes with evenly spaced canopy structures",
+        "avg_det": 1.25,
+        "det_rate": 0.95,
+        "avg_score": 0.32593803107738495,
+        "wilcoxon_p": 5.246585539137405e-05,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "golf_course": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "recreational green space",
+        "avg_det": 0.95,
+        "det_rate": 0.9,
+        "avg_score": 0.2761486828327179,
+        "wilcoxon_p": 3.016051472946531e-05,
+        "wilcoxon_sig": "***"
+      },
+      "fine": {
+        "prompt": "golf course with fairways and sand bunkers",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "golf course in suburban area",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.012618470191955566,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "golf course in suburban green belt with surrounding vegetation",
+        "avg_det": 1.2,
+        "det_rate": 0.95,
+        "avg_score": 0.3238037422299385,
+        "wilcoxon_p": 4.6322347843339827e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "golf course, irregular green area with smooth fairways",
+        "avg_det": 1.05,
+        "det_rate": 0.95,
+        "avg_score": 0.3235826775431633,
+        "wilcoxon_p": 2.52489724842288e-05,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "golf course, irregular shaped green areas with smooth fairways and scattered circular sand bunkers",
+        "avg_det": 1.2,
+        "det_rate": 0.95,
+        "avg_score": 0.3444554418325424,
+        "wilcoxon_p": 4.6322347843339827e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "extensive golf course",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "extensive landscaped, one of the largest green spaces visible golf course",
+        "avg_det": 1.15,
+        "det_rate": 1.0,
+        "avg_score": 0.3651172980666161,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a golf course",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.06049876660108566,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a golf course",
+        "avg_det": 0.35,
+        "det_rate": 0.35,
+        "avg_score": 0.09316251426935196,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a golf course",
+        "avg_det": 1.15,
+        "det_rate": 1.0,
+        "avg_score": 0.32643033266067506,
+        "wilcoxon_p": 1.9073486328125e-06,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "golf course, green with white spots",
+        "avg_det": 1.05,
+        "det_rate": 0.95,
+        "avg_score": 0.3168846607208252,
+        "wilcoxon_p": 2.52489724842288e-05,
+        "wilcoxon_sig": "***"
+      },
+      "spectral": {
+        "prompt": "golf course, bright green fairways with small bright white sand bunkers, darker rough areas",
+        "avg_det": 1.05,
+        "det_rate": 0.95,
+        "avg_score": 0.2995259463787079,
+        "wilcoxon_p": 2.52489724842288e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "golf course, smooth grass with granular spots",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.02550867199897766,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "golf course, smooth fairway grass with small granular bright sand bunker spots, rougher border vegetation",
+        "avg_det": 1.15,
+        "det_rate": 0.95,
+        "avg_score": 0.32915395945310594,
+        "wilcoxon_p": 3.9445772845430474e-05,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "ground_track_field": {
+    "baseline": {
+      "avg_det": 0.6,
+      "det_rate": 0.6,
+      "avg_score": 0.1930667817592621
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "sports field",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.013138908147811889,
+        "wilcoxon_p": 0.0014961642897455493,
+        "wilcoxon_sig": "**"
+      },
+      "fine": {
+        "prompt": "athletic field with oval running track",
+        "avg_det": 0.35,
+        "det_rate": 0.35,
+        "avg_score": 0.10307913571596146,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "ground track field in school or park",
+        "avg_det": 0.7,
+        "det_rate": 0.6,
+        "avg_score": 0.21038615852594375,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "ground track field in school campus or public sports complex",
+        "avg_det": 0.6,
+        "det_rate": 0.6,
+        "avg_score": 0.19990490823984147,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "ground track field, oval with dark track ring",
+        "avg_det": 1.05,
+        "det_rate": 0.8,
+        "avg_score": 0.2664976865053177,
+        "wilcoxon_p": 0.011059544891366648,
+        "wilcoxon_sig": "*"
+      },
+      "geometry": {
+        "prompt": "ground track field, oval running track encircling rectangular grass field, track appears as dark ring",
+        "avg_det": 1.4,
+        "det_rate": 0.85,
+        "avg_score": 0.2857068181037903,
+        "wilcoxon_p": 0.0009685559907505549,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "moderate-sized ground track field",
+        "avg_det": 0.95,
+        "det_rate": 0.75,
+        "avg_score": 0.256114961206913,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      },
+      "comparative": {
+        "prompt": "moderate-sized oval, comparable to a school building ground track field",
+        "avg_det": 0.95,
+        "det_rate": 0.8,
+        "avg_score": 0.24852664172649383,
+        "wilcoxon_p": 0.031127340503911898,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a ground track field",
+        "avg_det": 0.9,
+        "det_rate": 0.8,
+        "avg_score": 0.29084589034318925,
+        "wilcoxon_p": 0.040423979336908576,
+        "wilcoxon_sig": "*"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a ground track field",
+        "avg_det": 0.75,
+        "det_rate": 0.65,
+        "avg_score": 0.2376829668879509,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a ground track field",
+        "avg_det": 1.15,
+        "det_rate": 0.85,
+        "avg_score": 0.2924949169158936,
+        "wilcoxon_p": 0.0058646305352425,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "ground track field, reddish oval with green center",
+        "avg_det": 0.95,
+        "det_rate": 0.8,
+        "avg_score": 0.25659738183021547,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      },
+      "spectral": {
+        "prompt": "ground track field, reddish-brown oval running track surrounding bright green grass field",
+        "avg_det": 0.7,
+        "det_rate": 0.65,
+        "avg_score": 0.2000376060605049,
+        "wilcoxon_p": 0.4945246678838706,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "ground track field, smooth track with grass center",
+        "avg_det": 0.75,
+        "det_rate": 0.65,
+        "avg_score": 0.2227401152253151,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "ground track field, uniform smooth oval track ring surrounding textured green grass field",
+        "avg_det": 1.3,
+        "det_rate": 0.85,
+        "avg_score": 0.2829969972372055,
+        "wilcoxon_p": 0.006014839076076944,
+        "wilcoxon_sig": "**"
+      }
+    }
+  },
+  "harbor": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "waterfront facility",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.013211394846439361,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "maritime harbor with docks and berthed ships",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "harbor at coastline",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "harbor along coastline or riverbank with piers extending into water",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "harbor, irregular water edge with rectangular piers",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.014646822214126587,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "harbor, irregular coastline with rectangular piers extending into water, ships alongside docks",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "large-scale harbor",
+        "avg_det": 0.4,
+        "det_rate": 0.35,
+        "avg_score": 0.09809996336698532,
+        "wilcoxon_p": 0.021291755267428082,
+        "wilcoxon_sig": "*"
+      },
+      "comparative": {
+        "prompt": "large-scale waterfront, extending along the coast harbor",
+        "avg_det": 1.15,
+        "det_rate": 0.75,
+        "avg_score": 0.2261472761631012,
+        "wilcoxon_p": 0.0002144277454207591,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a harbor",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a harbor",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.012836605310440063,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a harbor",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.11982160210609435,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "harbor, gray docks on blue water",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "harbor, gray concrete piers extending into dark blue or brown water",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "harbor, smooth water with structured docks",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "harbor, smooth uniform water surface with rectangular structured dock texture",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "overpass": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "elevated roadway intersection",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.013140664994716644,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "cloverleaf or diamond highway interchange",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "overpass at highway junction",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "overpass at intersection of multiple highways forming interchange",
+        "avg_det": 0.15,
+        "det_rate": 0.15,
+        "avg_score": 0.03970968723297119,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "overpass, curved multi-level road junction",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "overpass, cloverleaf or diamond shaped multi-level road intersection with looping ramps",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.013159583508968353,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "large overpass",
+        "avg_det": 0.7,
+        "det_rate": 0.6,
+        "avg_score": 0.17938450425863267,
+        "wilcoxon_p": 0.0008967293467084598,
+        "wilcoxon_sig": "***"
+      },
+      "comparative": {
+        "prompt": "large interchange, spanning multiple highway levels overpass",
+        "avg_det": 1.15,
+        "det_rate": 0.95,
+        "avg_score": 0.3283177137374878,
+        "wilcoxon_p": 3.24500097888191e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of an overpass",
+        "avg_det": 0.3,
+        "det_rate": 0.3,
+        "avg_score": 0.08466108292341232,
+        "wilcoxon_p": 0.040423979336908576,
+        "wilcoxon_sig": "*"
+      },
+      "aerial": {
+        "prompt": "an aerial view of an overpass",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06470809280872344,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of an overpass",
+        "avg_det": 0.7,
+        "det_rate": 0.65,
+        "avg_score": 0.21668495684862138,
+        "wilcoxon_p": 0.00045963436521530906,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "overpass, gray curved roads",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.012853500247001649,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "overpass, light gray concrete roadways forming curved interchanges, dark shadows underneath",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06626573950052261,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "overpass, smooth road with shadow edges",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.11118129342794418,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      },
+      "pattern": {
+        "prompt": "overpass, smooth curving road surface with sharp dark shadow edges underneath overpasses",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.0586388498544693,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "ship": {
+    "baseline": {
+      "avg_det": 0.05,
+      "det_rate": 0.05,
+      "avg_score": 0.013486215472221374
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "vessel",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "large cargo vessel or container ship on water",
+        "avg_det": 1.05,
+        "det_rate": 0.7,
+        "avg_score": 0.2222398653626442,
+        "wilcoxon_p": 0.0005881466037469983,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "ship on water",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.014437705278396606,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "ship sailing in open water or berthed at dock",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.028091983497142793,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "ship, elongated hull on water",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.013967494666576385,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "ship, elongated rectangular hull with pointed bow, visible wake in water",
+        "avg_det": 0.3,
+        "det_rate": 0.25,
+        "avg_score": 0.07252379655838012,
+        "wilcoxon_p": 0.1410800325341802,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "large ship",
+        "avg_det": 0.7,
+        "det_rate": 0.6,
+        "avg_score": 0.17798454612493514,
+        "wilcoxon_p": 0.001651171608088958,
+        "wilcoxon_sig": "**"
+      },
+      "comparative": {
+        "prompt": "large vessel, prominent feature on water surface ship",
+        "avg_det": 1.05,
+        "det_rate": 0.7,
+        "avg_score": 0.22774557918310165,
+        "wilcoxon_p": 0.0005881466037469983,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a ship",
+        "avg_det": 0.15,
+        "det_rate": 0.15,
+        "avg_score": 0.04600861966609955,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a ship",
+        "avg_det": 0.25,
+        "det_rate": 0.2,
+        "avg_score": 0.05935390442609787,
+        "wilcoxon_p": 0.2506051749618906,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a ship",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.13388603627681733,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "ship, dark gray or red",
+        "avg_det": 0.25,
+        "det_rate": 0.2,
+        "avg_score": 0.05986519157886505,
+        "wilcoxon_p": 0.2506051749618906,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "ship, dark gray or red hull, bright white deck structures, visible against blue or dark water",
+        "avg_det": 0.85,
+        "det_rate": 0.7,
+        "avg_score": 0.21781597435474395,
+        "wilcoxon_p": 0.0004976498123574172,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "ship, smooth hull with deck structures",
+        "avg_det": 0.65,
+        "det_rate": 0.6,
+        "avg_score": 0.18150605261325836,
+        "wilcoxon_p": 0.001581063790231302,
+        "wilcoxon_sig": "**"
+      },
+      "pattern": {
+        "prompt": "ship, smooth elongated hull surface with small rectangular deck structure patterns on top",
+        "avg_det": 0.6,
+        "det_rate": 0.5,
+        "avg_score": 0.16006636768579482,
+        "wilcoxon_p": 0.0029984149815406335,
+        "wilcoxon_sig": "**"
+      }
+    }
+  },
+  "stadium": {
+    "baseline": {
+      "avg_det": 0.05,
+      "det_rate": 0.05,
+      "avg_score": 0.012670406699180603
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "large sports venue",
+        "avg_det": 0.7,
+        "det_rate": 0.65,
+        "avg_score": 0.17660297453403473,
+        "wilcoxon_p": 0.0008452812988718957,
+        "wilcoxon_sig": "***"
+      },
+      "fine": {
+        "prompt": "large stadium with oval spectator seating stands",
+        "avg_det": 1.45,
+        "det_rate": 0.9,
+        "avg_score": 0.3151680245995522,
+        "wilcoxon_p": 9.744624952450329e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "stadium in urban center",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06676405668258667,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "stadium in urban area with large surrounding parking lots",
+        "avg_det": 1.85,
+        "det_rate": 0.95,
+        "avg_score": 0.35017055422067644,
+        "wilcoxon_p": 5.626070325714282e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "stadium, large oval or circular structure",
+        "avg_det": 1.95,
+        "det_rate": 0.9,
+        "avg_score": 0.3401649922132492,
+        "wilcoxon_p": 8.033661061269907e-05,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "stadium, large oval structure with central opening, concentric ring pattern from above",
+        "avg_det": 1.95,
+        "det_rate": 0.95,
+        "avg_score": 0.33853746503591536,
+        "wilcoxon_p": 8.511768489041201e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "very large stadium",
+        "avg_det": 1.35,
+        "det_rate": 0.9,
+        "avg_score": 0.2909128576517105,
+        "wilcoxon_p": 0.00010924655641931643,
+        "wilcoxon_sig": "***"
+      },
+      "comparative": {
+        "prompt": "very large oval, one of the largest individual structures visible stadium",
+        "avg_det": 1.95,
+        "det_rate": 1.0,
+        "avg_score": 0.34550954550504687,
+        "wilcoxon_p": 6.734565856052526e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a stadium",
+        "avg_det": 1.15,
+        "det_rate": 0.75,
+        "avg_score": 0.2650297895073891,
+        "wilcoxon_p": 0.000348575174213053,
+        "wilcoxon_sig": "***"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a stadium",
+        "avg_det": 0.75,
+        "det_rate": 0.6,
+        "avg_score": 0.1803470268845558,
+        "wilcoxon_p": 0.0017050396930079533,
+        "wilcoxon_sig": "**"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a stadium",
+        "avg_det": 1.45,
+        "det_rate": 0.95,
+        "avg_score": 0.3292693987488747,
+        "wilcoxon_p": 8.325385590956178e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "stadium, gray with dark center",
+        "avg_det": 0.25,
+        "det_rate": 0.25,
+        "avg_score": 0.06887782514095306,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "stadium, light gray or white roof structure with dark oval opening in center",
+        "avg_det": 0.45,
+        "det_rate": 0.45,
+        "avg_score": 0.13590059876441957,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "stadium, smooth roof with central opening",
+        "avg_det": 0.55,
+        "det_rate": 0.45,
+        "avg_score": 0.13434285819530487,
+        "wilcoxon_p": 0.011208900973189011,
+        "wilcoxon_sig": "*"
+      },
+      "pattern": {
+        "prompt": "stadium, smooth uniform roof surface with textured central opening revealing seating or field",
+        "avg_det": 1.45,
+        "det_rate": 0.85,
+        "avg_score": 0.3018934726715088,
+        "wilcoxon_p": 0.00014566645568593763,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "storage_tank": {
+    "baseline": {
+      "avg_det": 0.1,
+      "det_rate": 0.1,
+      "avg_score": 0.02649071216583252
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "circular industrial structure",
+        "avg_det": 1.95,
+        "det_rate": 0.75,
+        "avg_score": 0.2574348047375679,
+        "wilcoxon_p": 0.0002511896530648877,
+        "wilcoxon_sig": "***"
+      },
+      "fine": {
+        "prompt": "cylindrical oil storage tank with floating roof",
+        "avg_det": 0.15,
+        "det_rate": 0.15,
+        "avg_score": 0.040158048272132874,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "storage tank in industrial zone",
+        "avg_det": 0.55,
+        "det_rate": 0.55,
+        "avg_score": 0.15801623165607454,
+        "wilcoxon_p": 0.005583616806378762,
+        "wilcoxon_sig": "**"
+      },
+      "context": {
+        "prompt": "storage tank grouped in oil refinery or chemical plant facility",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05383238196372986,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "storage tank, circular structure with central dot",
+        "avg_det": 1.9,
+        "det_rate": 0.8,
+        "avg_score": 0.27650038003921507,
+        "wilcoxon_p": 0.00016529654377692946,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "storage tank, cylindrical with circular top, floating roof visible as concentric circles",
+        "avg_det": 1.65,
+        "det_rate": 0.75,
+        "avg_score": 0.24542237371206282,
+        "wilcoxon_p": 0.00024430017904922106,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "medium-sized circular storage tank",
+        "avg_det": 1.85,
+        "det_rate": 0.8,
+        "avg_score": 0.2718083918094635,
+        "wilcoxon_p": 0.00016178707324915475,
+        "wilcoxon_sig": "***"
+      },
+      "comparative": {
+        "prompt": "medium to large circular, typically 20 to 50 meters across storage tank",
+        "avg_det": 2.15,
+        "det_rate": 0.95,
+        "avg_score": 0.301107694208622,
+        "wilcoxon_p": 8.343854253376442e-05,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a storage tank",
+        "avg_det": 0.55,
+        "det_rate": 0.45,
+        "avg_score": 0.12943854928016663,
+        "wilcoxon_p": 0.011059544891366648,
+        "wilcoxon_sig": "*"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a storage tank",
+        "avg_det": 0.45,
+        "det_rate": 0.4,
+        "avg_score": 0.11360069662332535,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a storage tank",
+        "avg_det": 0.9,
+        "det_rate": 0.75,
+        "avg_score": 0.2338533952832222,
+        "wilcoxon_p": 0.0002820412693618578,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "storage tank, white or silver circular",
+        "avg_det": 1.75,
+        "det_rate": 0.75,
+        "avg_score": 0.25870451182126997,
+        "wilcoxon_p": 0.0002477274702095586,
+        "wilcoxon_sig": "***"
+      },
+      "spectral": {
+        "prompt": "storage tank, bright white or silver circular tops with dark central dot, high contrast against ground",
+        "avg_det": 1.55,
+        "det_rate": 0.75,
+        "avg_score": 0.2436385527253151,
+        "wilcoxon_p": 0.00024430017904922106,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "storage tank, smooth circular tops",
+        "avg_det": 1.85,
+        "det_rate": 0.8,
+        "avg_score": 0.27585008442401887,
+        "wilcoxon_p": 0.00016397393898231777,
+        "wilcoxon_sig": "***"
+      },
+      "pattern": {
+        "prompt": "storage tank, smooth circular tops with small central dot, often in regularly spaced cluster pattern",
+        "avg_det": 1.6,
+        "det_rate": 0.75,
+        "avg_score": 0.24135759025812148,
+        "wilcoxon_p": 0.0002452314458160329,
+        "wilcoxon_sig": "***"
+      }
+    }
+  },
+  "tennis_court": {
+    "baseline": {
+      "avg_det": 0.25,
+      "det_rate": 0.2,
+      "avg_score": 0.0571598619222641
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "sports court",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 0.1410800325341802,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "rectangular tennis court with white boundary lines and net",
+        "avg_det": 0.5,
+        "det_rate": 0.45,
+        "avg_score": 0.13153015226125717,
+        "wilcoxon_p": 0.1664188905850249,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "tennis court on paved ground",
+        "avg_det": 1.0,
+        "det_rate": 0.7,
+        "avg_score": 0.21156741082668304,
+        "wilcoxon_p": 0.0017099917704857463,
+        "wilcoxon_sig": "**"
+      },
+      "context": {
+        "prompt": "tennis court in residential area or sports club compound",
+        "avg_det": 0.8,
+        "det_rate": 0.55,
+        "avg_score": 0.16834340542554854,
+        "wilcoxon_p": 0.0029984149815406335,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "tennis court, rectangular court with net line",
+        "avg_det": 0.6,
+        "det_rate": 0.45,
+        "avg_score": 0.13216423094272614,
+        "wilcoxon_p": 0.04071027776810215,
+        "wilcoxon_sig": "*"
+      },
+      "geometry": {
+        "prompt": "tennis court, rectangular court with center net line and service boxes visible as white markings",
+        "avg_det": 0.35,
+        "det_rate": 0.25,
+        "avg_score": 0.07927719354629517,
+        "wilcoxon_p": 0.6868628636128575,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "small tennis court",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05807275474071503,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "small rectangular, similar in size to a house tennis court",
+        "avg_det": 0.35,
+        "det_rate": 0.35,
+        "avg_score": 0.10119167268276215,
+        "wilcoxon_p": 0.4945246678838706,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a tennis court",
+        "avg_det": 0.95,
+        "det_rate": 0.75,
+        "avg_score": 0.22917705923318862,
+        "wilcoxon_p": 0.0008967293467084598,
+        "wilcoxon_sig": "***"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a tennis court",
+        "avg_det": 0.75,
+        "det_rate": 0.55,
+        "avg_score": 0.16806917041540145,
+        "wilcoxon_p": 0.011208900973189011,
+        "wilcoxon_sig": "*"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a tennis court",
+        "avg_det": 0.55,
+        "det_rate": 0.5,
+        "avg_score": 0.144068144261837,
+        "wilcoxon_p": 0.09607503841353807,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "tennis court, dark green or blue",
+        "avg_det": 0.7,
+        "det_rate": 0.55,
+        "avg_score": 0.16526424139738083,
+        "wilcoxon_p": 0.011059544891366648,
+        "wilcoxon_sig": "*"
+      },
+      "spectral": {
+        "prompt": "tennis court, uniform dark green or blue court surface with bright white boundary lines",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05729234218597412,
+        "wilcoxon_p": 0.9682702240636136,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "tennis court, smooth uniform court surface",
+        "avg_det": 0.55,
+        "det_rate": 0.45,
+        "avg_score": 0.1300823673605919,
+        "wilcoxon_p": 0.040423979336908576,
+        "wilcoxon_sig": "*"
+      },
+      "pattern": {
+        "prompt": "tennis court, smooth uniform court surface with thin white line markings dividing service boxes",
+        "avg_det": 0.35,
+        "det_rate": 0.3,
+        "avg_score": 0.08928764164447785,
+        "wilcoxon_p": 0.4615314017140396,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "train_station": {
+    "baseline": {
+      "avg_det": 0.8,
+      "det_rate": 0.8,
+      "avg_score": 0.25687005668878554
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "transportation hub",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 6.887215595255096e-05,
+        "wilcoxon_sig": "***"
+      },
+      "fine": {
+        "prompt": "railway station with multiple tracks and platforms",
+        "avg_det": 0.1,
+        "det_rate": 0.1,
+        "avg_score": 0.026768361032009125,
+        "wilcoxon_p": 0.00022522370098009104,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "train station in urban area",
+        "avg_det": 0.95,
+        "det_rate": 0.95,
+        "avg_score": 0.3017767980694771,
+        "wilcoxon_p": 0.25046077432462144,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "train station in city center with converging rail tracks and large platform area",
+        "avg_det": 1.35,
+        "det_rate": 1.0,
+        "avg_score": 0.3203430771827698,
+        "wilcoxon_p": 0.0029984149815406335,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "train station, elongated with parallel rail tracks",
+        "avg_det": 0.7,
+        "det_rate": 0.7,
+        "avg_score": 0.23223346173763276,
+        "wilcoxon_p": 0.42453187014444405,
+        "wilcoxon_sig": "ns"
+      },
+      "geometry": {
+        "prompt": "train station, cluster of buildings alongside multiple parallel rail tracks converging at station",
+        "avg_det": 0.85,
+        "det_rate": 0.8,
+        "avg_score": 0.2510873153805733,
+        "wilcoxon_p": 0.72305812692811,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "large train station",
+        "avg_det": 1.45,
+        "det_rate": 1.0,
+        "avg_score": 0.381538362801075,
+        "wilcoxon_p": 0.001651171608088958,
+        "wilcoxon_sig": "**"
+      },
+      "comparative": {
+        "prompt": "large complex, prominent in urban landscape train station",
+        "avg_det": 1.45,
+        "det_rate": 1.0,
+        "avg_score": 0.36734580546617507,
+        "wilcoxon_p": 0.001651171608088958,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a train station",
+        "avg_det": 1.0,
+        "det_rate": 0.9,
+        "avg_score": 0.30041439831256866,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a train station",
+        "avg_det": 1.05,
+        "det_rate": 0.95,
+        "avg_score": 0.32093959748744966,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a train station",
+        "avg_det": 1.25,
+        "det_rate": 0.95,
+        "avg_score": 0.30662079602479936,
+        "wilcoxon_p": 0.02146190912353515,
+        "wilcoxon_sig": "*"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "train station, gray with silver tracks",
+        "avg_det": 1.15,
+        "det_rate": 0.95,
+        "avg_score": 0.31375654637813566,
+        "wilcoxon_p": 0.02103748680569323,
+        "wilcoxon_sig": "*"
+      },
+      "spectral": {
+        "prompt": "train station, gray platform buildings alongside bright silver parallel rail tracks",
+        "avg_det": 0.9,
+        "det_rate": 0.75,
+        "avg_score": 0.24257833510637283,
+        "wilcoxon_p": 0.6940472365126469,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "train station, parallel linear rail pattern",
+        "avg_det": 0.7,
+        "det_rate": 0.65,
+        "avg_score": 0.2166996568441391,
+        "wilcoxon_p": 0.4615314017140396,
+        "wilcoxon_sig": "ns"
+      },
+      "pattern": {
+        "prompt": "train station, multiple parallel thin rail lines converging, alongside smooth platform surfaces",
+        "avg_det": 0.85,
+        "det_rate": 0.8,
+        "avg_score": 0.25453313291072843,
+        "wilcoxon_p": 0.72305812692811,
+        "wilcoxon_sig": "ns"
+      }
+    }
+  },
+  "vehicle": {
+    "baseline": {
+      "avg_det": 0.6,
+      "det_rate": 0.4,
+      "avg_score": 0.11974429935216904
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "motor vehicle",
+        "avg_det": 0.7,
+        "det_rate": 0.5,
+        "avg_score": 0.14164051711559295,
+        "wilcoxon_p": 0.4615314017140396,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "small passenger car on road or parking lot",
+        "avg_det": 0.5,
+        "det_rate": 0.45,
+        "avg_score": 0.12954301834106446,
+        "wilcoxon_p": 0.923728086629956,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "vehicle on road",
+        "avg_det": 1.0,
+        "det_rate": 0.5,
+        "avg_score": 0.15742070078849793,
+        "wilcoxon_p": 0.0768717568093825,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "vehicle driving on road or parked in parking lot",
+        "avg_det": 2.35,
+        "det_rate": 0.95,
+        "avg_score": 0.32325908094644545,
+        "wilcoxon_p": 0.00012057584105145764,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "vehicle, small rectangular shape",
+        "avg_det": 1.9,
+        "det_rate": 0.9,
+        "avg_score": 0.2828749865293503,
+        "wilcoxon_p": 0.0003668248674458519,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "vehicle, small rectangular shape from above, much smaller than surrounding structures",
+        "avg_det": 2.25,
+        "det_rate": 0.9,
+        "avg_score": 0.30642751455307005,
+        "wilcoxon_p": 0.0003735048588841303,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "tiny vehicle",
+        "avg_det": 0.85,
+        "det_rate": 0.5,
+        "avg_score": 0.15278592854738235,
+        "wilcoxon_p": 0.07641559648919974,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "tiny, much smaller than surrounding buildings and roads vehicle",
+        "avg_det": 2.1,
+        "det_rate": 0.9,
+        "avg_score": 0.3120273217558861,
+        "wilcoxon_p": 0.0002471017369250964,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a vehicle",
+        "avg_det": 2.35,
+        "det_rate": 0.95,
+        "avg_score": 0.33700978606939314,
+        "wilcoxon_p": 0.0001686376715060104,
+        "wilcoxon_sig": "***"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a vehicle",
+        "avg_det": 2.0,
+        "det_rate": 0.9,
+        "avg_score": 0.30059960335493086,
+        "wilcoxon_p": 0.00023694260400223383,
+        "wilcoxon_sig": "***"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a vehicle",
+        "avg_det": 1.75,
+        "det_rate": 0.85,
+        "avg_score": 0.27988128513097765,
+        "wilcoxon_p": 0.0010312817818499105,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "vehicle, various dark or light",
+        "avg_det": 1.45,
+        "det_rate": 0.8,
+        "avg_score": 0.2533439457416534,
+        "wilcoxon_p": 0.0009747102907152761,
+        "wilcoxon_sig": "***"
+      },
+      "spectral": {
+        "prompt": "vehicle, small dark or light colored rectangle, varies by vehicle type, distinctive against road",
+        "avg_det": 1.6,
+        "det_rate": 0.8,
+        "avg_score": 0.24878494888544084,
+        "wilcoxon_p": 0.0018058317727949352,
+        "wilcoxon_sig": "**"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "vehicle, small smooth rectangle",
+        "avg_det": 1.55,
+        "det_rate": 0.8,
+        "avg_score": 0.248927104473114,
+        "wilcoxon_p": 0.0005762535247261101,
+        "wilcoxon_sig": "***"
+      },
+      "pattern": {
+        "prompt": "vehicle, small smooth rectangular surface, distinct from textured road surface",
+        "avg_det": 1.85,
+        "det_rate": 0.8,
+        "avg_score": 0.2699322208762169,
+        "wilcoxon_p": 0.001024890404344878,
+        "wilcoxon_sig": "**"
+      }
+    }
+  },
+  "windmill": {
+    "baseline": {
+      "avg_det": 0.0,
+      "det_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "granularity": {
+      "coarse": {
+        "prompt": "energy infrastructure",
+        "avg_det": 0.0,
+        "det_rate": 0.0,
+        "avg_score": 0.0,
+        "wilcoxon_p": 1.0,
+        "wilcoxon_sig": "ns"
+      },
+      "fine": {
+        "prompt": "three-blade wind turbine with white tower",
+        "avg_det": 1.2,
+        "det_rate": 0.85,
+        "avg_score": 0.25447302162647245,
+        "wilcoxon_p": 0.00010240005303468325,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spatial": {
+      "location": {
+        "prompt": "windmill in open field",
+        "avg_det": 0.05,
+        "det_rate": 0.05,
+        "avg_score": 0.014819684624671935,
+        "wilcoxon_p": 0.6766573217164245,
+        "wilcoxon_sig": "ns"
+      },
+      "context": {
+        "prompt": "windmill in open farmland or coastal area, often in regular grid arrays",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.053437145054340364,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      }
+    },
+    "geometric": {
+      "shape": {
+        "prompt": "windmill, three-blade pinwheel structure",
+        "avg_det": 0.85,
+        "det_rate": 0.7,
+        "avg_score": 0.20700301080942154,
+        "wilcoxon_p": 0.00030580767339067597,
+        "wilcoxon_sig": "***"
+      },
+      "geometry": {
+        "prompt": "windmill, three slender blades radiating from central hub, white tower base with long shadow",
+        "avg_det": 1.05,
+        "det_rate": 0.8,
+        "avg_score": 0.24290928840637208,
+        "wilcoxon_p": 0.0001349079267020126,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "scale": {
+      "size": {
+        "prompt": "tall windmill",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.054265788197517394,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "comparative": {
+        "prompt": "tall slender, with visible shadow extending from base windmill",
+        "avg_det": 0.8,
+        "det_rate": 0.75,
+        "avg_score": 0.21209727972745895,
+        "wilcoxon_p": 0.00014435503480602247,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "grammar": {
+      "photo_of": {
+        "prompt": "a photo of a windmill",
+        "avg_det": 0.3,
+        "det_rate": 0.3,
+        "avg_score": 0.08045072853565216,
+        "wilcoxon_p": 0.040423979336908576,
+        "wilcoxon_sig": "*"
+      },
+      "aerial": {
+        "prompt": "an aerial view of a windmill",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05546992719173431,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "satellite": {
+        "prompt": "a top-down satellite image of a windmill",
+        "avg_det": 0.8,
+        "det_rate": 0.7,
+        "avg_score": 0.21998055577278136,
+        "wilcoxon_p": 0.0002820412693618578,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "spectral": {
+      "color": {
+        "prompt": "windmill, bright white",
+        "avg_det": 0.2,
+        "det_rate": 0.2,
+        "avg_score": 0.05393458604812622,
+        "wilcoxon_p": 0.14084407510721156,
+        "wilcoxon_sig": "ns"
+      },
+      "spectral": {
+        "prompt": "windmill, bright white tower and blades, high contrast against green or brown ground, long dark shadow",
+        "avg_det": 0.6,
+        "det_rate": 0.6,
+        "avg_score": 0.17482227236032485,
+        "wilcoxon_p": 0.0007851649420077143,
+        "wilcoxon_sig": "***"
+      }
+    },
+    "texture": {
+      "texture": {
+        "prompt": "windmill, smooth tower with blade pattern",
+        "avg_det": 0.4,
+        "det_rate": 0.4,
+        "avg_score": 0.10745397806167603,
+        "wilcoxon_p": 0.010852048497134576,
+        "wilcoxon_sig": "*"
+      },
+      "pattern": {
+        "prompt": "windmill, smooth white tower base with three distinct blade surfaces radiating from hub",
+        "avg_det": 1.15,
+        "det_rate": 0.9,
+        "avg_score": 0.27110583931207655,
+        "wilcoxon_p": 6.323012164432596e-05,
+        "wilcoxon_sig": "***"
+      }
+    }
+  }
+}
