@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+*.log
+.ipynb_checkpoints/
+# Datasets, weights, and raw detection dumps are NOT part of this release.
+data/
+weights/
+*_images/
+_det_cache/
+*.pt
+*.pth
+*.ckpt
+*.parquet
